@@ -1,0 +1,29 @@
+{
+    "name": "ai-copy-guard-server",
+    "version": "1.0.0",
+    "description": "Backend Guard Gateway for AI CopyGuard",
+    "main": "src/index.ts",
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "dev": "nodemon src/index.ts",
+        "build": "tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@google/genai": "^1.33.0",
+        "cors": "^2.8.5",
+        "dd-trace": "^5.0.0",
+        "dotenv": "^16.6.1",
+        "express": "^4.22.1"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.19",
+        "@types/express": "^4.17.25",
+        "@types/node": "^20.19.26",
+        "nodemon": "^3.1.11",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.3"
+    }
+}
